@@ -1,0 +1,171 @@
+﻿body {
+    background-color: #f2f6ff;
+    font-family: 'Raleway',sans-serif;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+#trend {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.94;
+}
+
+#filter {
+    margin-left: 8px;
+    font-size: 14px;
+    font-family: 600;
+}
+
+.btn-active {
+    background-color: #6A5ACD;
+    color: white;
+    border: 1px solid #6A5ACD;
+    border-radius: 30px;
+    padding: 6px 14px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.btn {
+    color: #6A5ACD;
+    border: 1px solid #6A5ACD;
+    border-radius: 30px;
+    padding: 6px 14px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 12px;
+}
+
+#categories-section {
+    width: 100%;
+    max-width: 990px;
+    margin: 2% auto;
+}
+
+#grid {
+    width: 100%;
+    max-width: 990px;
+    margin: 2% auto;
+}
+
+.course-card {
+    width: 31%;
+    height: 430px;
+    margin: 1%;
+    vertical-align: top;
+    display: inline-block;
+    box-shadow: 2px 2px 4px #ccc;
+    border-radius: 5px;
+}
+
+.thumbnail {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+h3 {
+    padding: 10px 24px;
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+}
+
+.author {
+    padding-top: 4px;
+    padding-left: 24px;
+    margin: 0;
+    font-size: .9em;
+    font-weight: 500;
+    line-height: 2;
+    color: #0096ff;
+    text-align: left;
+}
+
+.date {
+    padding-top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+}
+
+.disc {
+    padding: 0 24px;
+    opacity: .5;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: .35px;
+    text-align: left;
+    color: rgba(0,0,0.6);
+    margin: 4px 0;
+}
+
+/*  btn Start */
+
+.movebtn {
+    text-align: center;
+    
+}
+
+.button-34 {
+    margin-right: 300px;
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+
+.button-35 {
+    margin-left: 470px;
+    text-align: center;
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+/*  btn End */
+
+.footer {
+    color: #000;
+}
+

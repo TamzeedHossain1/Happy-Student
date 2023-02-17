@@ -1,0 +1,141 @@
+﻿@page
+@model Happy_Student.Pages.LogBook.IndexModel
+@{
+    ViewData["Title"] = "Log Book";
+}
+
+<DOCTYPE html>
+    <html lan="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>
+            First Assignment/EDYODA Course Cards
+        </title>
+        <link rel="stylesheet" type="text/css" href="~/css/logbook.css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+            <div id="categories-section">
+
+            <span id="trend">Trending Posts</span><br /> <br />
+            <span id="filter"><b>Filter by Categories</b></span><br />
+
+                <span class="btn-active">All</span>
+
+                <span class="btn">Artificial Intelligence</span>
+                <span class="btn">Cloud Computing</span>
+                <span class="btn">DevOps</span>
+                <span class="btn">Programming Languages</span>
+                <span class="btn">Mobile Application Development</span>
+                <span class="btn">Technology and Tools</span>
+                <span class="btn"> Get a Job in a Tech Company</span>
+                <span class="btn">Others</span>
+
+            </div>
+
+            <div id="grid">
+                <div class="course-card">
+                <img class="thumbnail" src="https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=826&t=st=1674891227~exp=1674891827~hmac=bbe8dd55b869cff53e8429937a081248cee3c8680c6be919e9552cb0b79ff5ca" alt="Machine Learning" />
+                    <h3>Introduction To A Machine Learning Online...</h3>
+                <span class="author">Happy Student</span>
+                    <span class="date"> | 28 Jan 2023</span>
+                    <p class="disc">
+                        We have had an insight into Artificial Intelligence. Well, one of its subfields is machine learning and this introduction will help you get a fair idea of what a machine learning
+                    </p>
+                </div>
+
+                <div class="course-card">
+                <img class="thumbnail" src="https://img.freepik.com/premium-vector/web-development_73903-164.jpg?w=826" alt="LAMP Stack Vs MEAN stackLAMP Stack" />
+                    <h3>LAMP Stack Vs MEAN stackLAMP Stack....</h3>
+                <span class="author">Happy Student</span>
+                <span class="date"> | 28 Jan 2023</span>
+                    <p class="disc">
+                        In today’s dynamic world, rapid web application development with a smooth user interface that can adapt to specific features is the main business requirement. Many organizations
+                    </p>
+                </div>
+
+                <div class="course-card">
+                <img class="thumbnail" src="https://img.freepik.com/free-vector/big-data-source-data-center-cloud-computing-cloud-storage-isometric-concept-server-room-rack_39422-964.jpg?w=740&t=st=1674891848~exp=1674892448~hmac=8e40aa3b271a91138ce1996d5acc8732bf7d0fb481e44a39c89c572d5359a9e3" alt="Cloud Computing" />
+                    <h3>Impact of Cloud Computing in various..</h3>
+                <span class="author">Happy Student</span>
+                <span class="date"> | 28 Jan 2023</span>
+                    <p class="disc">
+                        Cloud computing has been rapidly gaining pace in the world of information technology. It has been observed that over 90% of global enterprises are using cloud technology as part of their...
+                    </p>
+                </div>
+
+                <div class="course-card">
+                <img class="thumbnail" src="https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg?w=740&t=st=1674891999~exp=1674892599~hmac=cc043649acdf99ec992abb35b5ba721cc8bc838298415d09a5960bb0f8715a64" alt="Machine Learning" />
+                    <h3>Challenges of Machine Lear....</h3>
+                <span class="author">Happy Student</span>
+                <span class="date"> | 28 Jan 2023</span>
+                    <p class="disc">
+                        Machine Learning is a subset of artificial intelligence which is an important part of computer science. The revolution of Big Data promises to transform the way we work, live and..
+                    </p>
+                </div>
+
+                <div class="course-card">
+                <img class="thumbnail" src="https://img.freepik.com/free-vector/abstract-secure-technology-background_52683-28631.jpg?w=740&t=st=1674892046~exp=1674892646~hmac=5eef8ddb03e94da74e565cc015c7ebd4d9fd07dbe5f6ef3cd8c61d22a95e8c02" alt="Cybersecurity" />
+                    <h3>Breaking the Myths around Cybersecurity</h3>
+                <span class="author">Happy Student</span>
+                <span class="date">| 28 Jan 2023</span>
+                    <p class="disc">
+                        As the dependency on online platforms is increasing daily, cybersecurity is becoming an important concern for all companies...
+                    </p>
+                </div>
+
+                <div class="course-card">
+                <img class="thumbnail" src="https://img.freepik.com/free-vector/futuristic-lock-shield-protection_53876-118349.jpg?w=740&t=st=1674892108~exp=1674892708~hmac=d9a5ecf34fd395dbc19f768a300f1b94970bda8671bcd0f95640c6317fd55b84" alt="Data Backup" />
+                    <h3>Importance of Data Backu..</h3>
+                <span class="author">Happy Student</span>
+                <span class="date">| 28 Jan 2023</span>
+                    <p class="disc">
+                        A business must always introspect the areas where they lack in order to bring about a positive change in the work environment. One of the main precautions or a contingency plan
+                    </p>
+                </div>
+
+                <div class="course-card">
+                    <img class="thumbnail" src="https://edyoda.s3.amazonaws.com/media/blog-images/automation-testing-an-overview-2.png" alt="Web Scraping" />
+                    <h3>What is Web Scraping?</h3>
+                <span class="author">Happy Student</span>
+                <span class="date">| 28 Jan 2023</span>
+                    <p class="disc">
+                        Simply put, web scraping is one of the tools developers use to gather and analyze information from the Internet.
+
+                        Some websites and platforms offer application programming interfaces (APIs) which we can...
+                    </p>
+                </div>
+
+                <div class="course-card">
+                    <img class="thumbnail" src="https://edyoda.s3.amazonaws.com/media/blog-images/what_is_isa_blog_1.png" alt="Income Share Agreement" />
+                    <h3>What is Income Share Agreement?</h3>
+                <span class="author">Happy Student</span>
+                <span class="date"> | 28 Jan 2023</span>
+                    <p class="disc">
+                        The term Income Share Agreement has been around for a long time since 1955 to be precise. Surprised, eh? It was first introduced by Milton Friedman, an American economist
+                    </p>
+                </div>
+
+                <div class="course-card">
+                <img class="thumbnail" src="https://img.freepik.com/free-vector/combination-circuit-head-shape-artificial-intelligence-moral-electronic-world-illustration_456031-123.jpg?w=826&t=st=1674891183~exp=1674891783~hmac=c709b59f42edeadda790dae4a72576c03bfa6c9bbd55fd46a310317aa15261d6" alt="Machine Learning with Python" />
+                    <h3>Practical Machine Learning with Python...</h3>
+                    <span class="author">Happy Student</span>
+                <span class="date">| 28 Jan 2023</span>
+                    <p class="disc">
+                        Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to “learn” (e.g., progressively improve performance on a specific
+                    </p>
+                </div>
+            </div>
+            <div class="movebtn">            
+            <button class="button-34" role="button">Previous</button>
+            <button class="button-35" role="button">Next</button>
+            </div>
+
+    </body>
+</html>
+

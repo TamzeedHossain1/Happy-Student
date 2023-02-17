@@ -1,0 +1,22 @@
+﻿body {
+    background-color: #f2f6ff;
+    font-family: 'Raleway',sans-serif;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.btn {
+    color: #6A5ACD;
+    border: 1px solid #6A5ACD;
+    border-radius: 30px;
+    padding: 6px 14px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.footer {
+    color: #000;
+    margin-bottom: 25px;
+}
+

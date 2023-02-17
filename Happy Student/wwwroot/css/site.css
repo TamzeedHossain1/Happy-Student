@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.bg-white {
+    background-color: #ff6a00;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.nav-item {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+}
+
+.headcont {
+    background-color: slateblue;
+}
+
+.header_container {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+
+.hdh1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.ptext {
+    color: whitesmoke;
+    margin-bottom: 50px;
+}
+
+.btn {
+    color: #6A5ACD;
+    border: 1px solid #6A5ACD;
+    border-radius: 30px;
+    padding: 6px 14px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.btn-hmprimary {
+    width: 250px;
+    height: 60px;
+    background-image: linear-gradient(to right, #7317cb 0%, #ff6a00 51%, #7317cb 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.6s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 5px #8e4fd6;
+    border-radius: 5px;
+}
+
+.btn-hmprimary:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* categories */
+
+.categories {
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+
+.categories h1 {
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.categories_container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.categories_left {
+    margin-right: 4rem; 
+}
+
+
+.categories_left p {
+    margin: 1rem 0 3rem;
+    color: white;
+}
+
+.categories_right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+.category_box {
+    background-color: #7c6ed3;
+    padding: 2rem;
+    border-radius: 2rem;
+    transform: var(--transition);
+}
+
+.category_box:hover {
+    box-shadow: 0 0.5rem 0.5rem #303e50;
+}
+
+.btn-primary {
+    background-color: white;
+    color: #000;
+}
+.btn-primary:hover {
+    background-color: #303e50;
+    color: #fff;
+}
+
+/* categories end */
+
+/* Start courses */
+
+.coureses {
+    margin-top:10rem;
+}
+
+.courses_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.courses {
+    background: #7c6ed3;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.img-course {
+    width: 300px;
+    height: 300px;
+}
+
+.course-h1 {
+    top: 4rem;
+}
+
+/* End courses */
+
+/* Start action */
+
+.action{ 
+    background: #303e50;
+}
+.jumbotron {
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+    .jumbotron p {
+        color: white;
+        font-size: 26px;
+    }
+.glyphicon-large {
+    font-size: 100px;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+    .call-to-action p {
+        margin-bottom: 30px;
+        font-family: sans-serif;
+    }
+
+/* End action */
+
